@@ -1,107 +1,186 @@
-html{
-    font-size: 16px;
-}
-
-/* Redimensión de fuente utilizando rem */
-p{
-    font-size: 1rem;
-}
-
-h1{
-    font-size: 3rem;
-}
-
-h2{
-    font-size: 2rem;
-}
-
-h3{
-    font-size: 1.6rem;
-}
-
-h4{
-    font-size: 1.3rem;
-}
-
-h5{
-    font-size: 1.15rem;
-}
-
-h6{
-    font-size: 1.05rem;
-}
-/**************************/
-
-/* clases predefinidas */
-* {
-    box-sizing: border-box;
-}
-
-body{
-    margin: 0;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* Diseño de columnas */
-.column-1{
-    width: 100%;
-    float: left;
-}
-
-.column-2{
-    width: 50%;
-    float: left;
-}
-
-.column-3{
-    width: 33.33%;
-    float: left;
-}
-
-.column-4{
-    width: 25%;
-    float: left;
-}
-
-.column-5{
-    width: 20%;
-    float: left;
-}
-
-.column-6{
-    width: 16.66%;
-    float: left;
-}
-
-.column-75{
-    width: 75%;
-    float: left;
-}
-
-/* Otras clases */
-/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media only screen and (max-width: 600px) {
-    /* column-2 pasará de tener 50% a 100% */
-    .column-2{
-        width: 100%;
+    html {
+        font-size: 16px;
     }
-    /* column-3 pasará de tener 33.33% a 100% */
-    .column-3{
-        width: 100%;
+    /* Redimensión de fuente utilizando rem */
+    
+    p {
+        font-size: 1rem;
     }
-    /* column-4 pasará de tener 25% a 50% */
-    .column-4{
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1.15rem;
+    }
+    
+    h6 {
+        font-size: 1.05rem;
+    }
+    /**************************/
+    /* clases predefinidas */
+    
+    * {
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+    
+    body {
+        margin: 0;
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Diseño de columnas */
+    
+    .column-1 {
+        width: 100%;
+        float: left;
+    }
+    
+    .column-2 {
         width: 50%;
+        float: left;
     }
-}
+    
+    .column-3 {
+        width: 33.33%;
+        float: left;
+    }
+    
+    .column-4 {
+        width: 25%;
+        float: left;
+    }
+    
+    .column-5 {
+        width: 20%;
+        float: left;
+    }
+    
+    .column-6 {
+        width: 16.66%;
+        float: left;
+    }
+    
+    .column-75 {
+        width: 75%;
+        float: left;
+    }
+    /* Otras clases */
+    
+    #header {
+        height: 100vh;
+        background-image: url();
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+    
+    #infopersonal {
+        padding-left: 10%;
+        padding-top: 8%;
+        padding: 8%;
+        background-color: aqua;
+        height: 50%;
+    }
+    
+    #explaboral {
+        padding-left: 25%;
+        padding-top: 8%;
+        padding: 8%;
+        padding-right: 8%;
+        background-color: black;
+        color: white;
+        height: 50%;
+        text-align: end;
+    }
+    
+    #habilidades {
+        background-color: aqua;
+        padding: 5%;
+        padding-left: 10%;
+        color: black;
+    }
+    
+    #maps {
+        background-color: black;
+        padding-left: 10%;
+    }
+    
+    #competencias {}
+    
+    #idiomas {
+        padding-left: 10%;
+    }
+    
+    #fondo1 {
+        background-color: aqua;
+    }
+    
+    #explaboral {
+        background-color: black;
+    }
+    
+    iframe {
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    
+    #software {
+        padding-left: 10%;
+    }
+    
+    footer {
+        text-align: center;
+        height: 10vh;
+        text-decoration: none;
+        padding: 5%;
+        background-color: black;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+    
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        /* column-2 pasará de tener 50% a 100% */
+        .column-2 {
+            width: 100%;
+        }
+        /* column-3 pasará de tener 33.33% a 100% */
+        .column-3 {
+            width: 100%;
+        }
+        /* column-4 pasará de tener 25% a 50% */
+        .column-4 {
+            width: 50%;
+        }
+    }
