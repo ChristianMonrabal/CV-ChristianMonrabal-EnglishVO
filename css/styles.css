@@ -84,83 +84,90 @@
         width: 75%;
         float: left;
     }
-    /* Otras clases */
+    /* Encabezado */
     
     #header {
         height: 100vh;
-        background-image: url();
         background-color: black;
         background-size: cover;
         background-position: center;
         color: white;
     }
     
-    #infopersonal {
-        padding-left: 10%;
-        padding-top: 8%;
-        padding: 8%;
-        background-color: aqua;
-        height: 50%;
+    #encabezado {
+        padding-top: 20%;
     }
     
-    #explaboral {
-        padding-left: 25%;
-        padding-top: 8%;
-        padding: 8%;
-        padding-right: 8%;
-        background-color: black;
-        color: white;
-        height: 50%;
-        text-align: end;
+    #ingles {
+        padding-top: 20%;
     }
     
-    #habilidades {
-        background-color: aqua;
-        padding: 5%;
-        padding-left: 10%;
-        color: black;
-    }
-    
-    #maps {
-        background-color: black;
-        padding-left: 10%;
-    }
-    
-    #competencias {}
-    
-    #idiomas {
-        padding-left: 10%;
-    }
-    
-    #fondo1 {
-        background-color: aqua;
-    }
-    
-    #explaboral {
-        background-color: black;
-    }
-    
-    iframe {
-        padding-left: 10%;
-        padding-top: 10%;
-        padding-bottom: 10%;
-    }
-    
-    #software {
-        padding-left: 10%;
-    }
-    
-    footer {
-        text-align: center;
-        height: 10vh;
-        text-decoration: none;
-        padding: 5%;
-        background-color: black;
+    #descarga {
+        padding-top: 20%;
+        padding-left: 35%;
     }
     
     a {
         text-decoration: none;
         color: white;
+        padding-left: 10%;
+    }
+    /* Quien soy */
+    
+    #quiensoy {
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        background-color: aqua
+    }
+    /* informacion personal */
+    
+    #maps {
+        padding-top: 9%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        background-color: black;
+    }
+    
+    .negro {
+        background-color: black;
+    }
+    
+    #infopersonal {
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        background-color: black;
+        color: white;
+    }
+    /* Skills */
+    
+    .aqua {
+        background-color: aqua;
+    }
+    
+    #competencias {
+        padding: 5%;
+        padding-left: 10%;
+    }
+    
+    #idiomas {
+        padding: 5%;
+        padding-left: 10%;
+    }
+    
+    #software {
+        padding: 5%;
+        padding-left: 10%;
+    }
+    /* Skills */
+    
+    footer {
+        text-align: center;
+        height: 8vh;
+        text-decoration: none;
+        padding: 5%;
+        background-color: black;
     }
     /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
     
@@ -169,6 +176,7 @@
         align-items: center;
         justify-content: center;
     }
+    /* CSS INGLES */
     
     @media only screen and (max-width: 600px) {
         /* column-2 pasará de tener 50% a 100% */
